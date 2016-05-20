@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="apiSuite" verbose="1" >
+ 
+  <test name="StoreTest">
+    <classes>
+      <class name="org.salawat.samples.homeaway.api.StationTest"/>
+    </classes>
+  </test>
+</suite>
